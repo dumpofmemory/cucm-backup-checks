@@ -1,0 +1,344 @@
+
+>> CURRENT DATE: 2018-10-06 14:53:08
+>> ATTEMPTING SSH TO 10.10.20.2
+Exception in connecting to the server: Authentication failed.!!! TERMINATING THIS SSH CONNECTION ATTEMPT !!!
+
+>> CURRENT DATE: 2018-10-06 14:53:12
+>> ATTEMPTING SSH TO 10.10.20.1
+Exception in connecting to the server: Authentication failed.!!! TERMINATING THIS SSH CONNECTION ATTEMPT !!!
+
+>> CURRENT DATE: 2018-10-06 14:53:16
+>> ATTEMPTING SSH TO 10.10.20.2
+Exception in connecting to the server: Authentication failed.!!! TERMINATING THIS SSH CONNECTION ATTEMPT !!!
+
+>> CURRENT DATE: 2018-10-06 14:53:20
+>> ATTEMPTING SSH TO 10.10.20.1
+Exception in connecting to the server: Authentication failed.!!! TERMINATING THIS SSH CONNECTION ATTEMPT !!!
+Script Complete
+
+>> CURRENT DATE: 2018-10-06 14:53:42
+>> ATTEMPTING SSH TO 10.10.20.2
+utils disaster_recovery device list
+Device Name		Device Type		Device Path
+--------------------------------------------------------------
+drfCliMsg:  No device found 
+admin:utils disaster_recovery status backup
+drfCliMsg: No backup status available
+admin:file view install system-history.log
+
+=======================================
+Product Name -    Cisco Unified Communications Manager
+Product Version - 11.5.1.10000-6
+Kernel Image -    2.6.32-573.18.1.el6.x86_64
+=======================================
+10/27/2012 18:09:24 | root: Install 10.5.1.10000-7 Start 
+10/27/2012 12:21:08 | root: Boot 10.5.1.10000-7 Start 
+05/19/2014 12:49:31 | root: Install 10.5.1.10000-7 Success 
+05/19/2014 12:49:32 | root: Boot 10.5.1.10000-7 Start 
+05/19/2014 12:54:57 | root: Restart 10.5.1.10000-7 Start 
+05/19/2014 12:55:48 | root: Boot 10.5.1.10000-7 Start 
+07/16/2013 02:00:25 | root: Boot 10.5.1.10000-7 Start 
+07/16/2013 02:08:52 | root: Shutdown 10.5.1.10000-7 Start 
+07/16/2013 02:20:25 | root: Boot 10.5.1.10000-7 Start 
+07/16/2013 02:26:28 | root: Shutdown 10.5.1.10000-7 Start 
+06/16/2015 10:36:03 | root: Boot 10.5.1.10000-7 Start 
+06/16/2015 12:00:07 | root: Cisco Option Install ciscocm.version3-keys.cop Start 
+06/16/2015 12:00:08 | root: Cisco Option Install ciscocm.version3-keys.cop Success 
+06/16/2015 12:34:01 | root: Upgrade 10.5.2.11900-3 Start 
+06/16/2015 13:18:01 | root: Upgrade 10.5.2.11900-3 Success 
+
+options: q=quit, n=next, p=prev, b=begin, e=end (lines 1 - 20 of 57) : 
+06/30/2016 21:22:20 | root: Upgrade 11.5.1.10000-6 Start 
+06/30/2016 22:26:28 | root: Upgrade 11.5.1.10000-6 Success 
+06/30/2016 22:45:41 | root: Switch Version 11.0.1.10000-10 to 11.5.1.10000-6 Start 
+06/30/2016 22:48:38 | root: Switch Version 11.0.1.10000-10 to 11.5.1.10000-6 Success 
+06/30/2016 22:48:38 | root: Product Version 11.5.1.10000-6 
+06/30/2016 22:48:38 | root: Kernel Image 2.6.32-573.18.1.el6.x86_64 
+06/30/2016 22:48:41 | root: Restart 11.5.1.10000-6 Start 
+06/30/2016 22:48:42 | root: Restart 11.0.1.10000-10 Start 
+06/30/2016 22:50:38 | root: Boot 11.5.1.10000-6 Start 
+07/04/2016 10:54:25 | root: Shutdown 11.5.1.10000-6 Start 
+07/24/2018 20:38:00 | root: Boot 11.5.1.10000-6 Start 
+07/24/2018 21:39:38 | root: Cisco Option Install cmterm-devicepack11.5.1.15078-1.cop Start 
+07/24/2018 21:42:28 | root: Cisco Option Install cmterm-devicepack11.5.1.15078-1.cop Success 
+07/24/2018 21:47:16 | root: Restart 11.5.1.10000-6 Start 
+07/24/2018 21:47:51 | root: Boot 11.5.1.10000-6 Start 
+07/24/2018 21:56:14 | root: Shutdown 11.5.1.10000-6 Start 
+10/06/2018 12:12:08 | root: Boot 11.5.1.10000-6 Start 
+
+end of the file reached
+options: q=quit, n=next, p=prev, b=begin, e=end (lines 41 - 57 of 57) : 
+admin:
+
+>> CURRENT DATE: 2018-10-06 14:54:00
+>> ATTEMPTING SSH TO 10.10.20.1
+utils disaster_recovery device list
+Device Name		Device Type		Device Path
+--------------------------------------------------------------
+drfCliMsg:  No device found 
+admin:utils disaster_recovery status backup
+drfCliMsg: No backup status available
+admin:file view install system-history.log
+
+=======================================
+Product Name -    Cisco Unified Communications Manager
+Product Version - 11.5.1.10000-6
+Kernel Image -    2.6.32-573.18.1.el6.x86_64
+=======================================
+10/23/2012 22:06:58 | root: Install 10.5.1.10000-7 Start 
+10/23/2012 15:24:10 | root: Boot 10.5.1.10000-7 Start 
+05/15/2014 16:10:39 | root: Install 10.5.1.10000-7 Success 
+05/15/2014 16:10:40 | root: Boot 10.5.1.10000-7 Start 
+10/27/2012 17:06:01 | root: Boot 10.5.1.10000-7 Start 
+10/27/2012 17:10:56 | root: Boot 10.5.1.10000-7 Start 
+11/20/2012 17:48:40 | root: Boot 10.5.1.10000-7 Start 
+11/20/2012 19:59:26 | root: Boot 10.5.1.10000-7 Start 
+11/24/2012 16:49:15 | root: Boot 10.5.1.10000-7 Start 
+07/16/2013 02:01:00 | root: Boot 10.5.1.10000-7 Start 
+07/16/2013 02:08:27 | root: Shutdown 10.5.1.10000-7 Start 
+07/16/2013 02:15:40 | root: Boot 10.5.1.10000-7 Start 
+07/16/2013 02:26:42 | root: Shutdown 10.5.1.10000-7 Start 
+06/16/2015 10:34:06 | root: Boot 10.5.1.10000-7 Start 
+06/16/2015 10:47:28 | root: Cisco Option Install ciscocm.version3-keys.cop Start 
+
+options: q=quit, n=next, p=prev, b=begin, e=end (lines 1 - 20 of 63) : 
+07/24/2018 21:33:51 | root: Boot 11.5.1.10000-6 Start 
+07/24/2018 21:58:12 | root: Shutdown 11.5.1.10000-6 Start 
+10/03/2018 16:08:18 | root: Boot 11.5.1.10000-6 Start 
+
+end of the file reached
+options: q=quit, n=next, p=prev, b=begin, e=end (lines 61 - 63 of 63) : 
+admin:
+
+>> CURRENT DATE: 2018-10-06 14:54:21
+>> ATTEMPTING SSH TO 10.10.20.2
+utils disaster_recovery device list
+Device Name		Device Type		Device Path
+--------------------------------------------------------------
+drfCliMsg:  No device found 
+admin:utils disaster_recovery status backup
+drfCliMsg: No backup status available
+admin:file view install system-history.log
+
+=======================================
+Product Name -    Cisco Unified Communications Manager
+Product Version - 11.5.1.10000-6
+Kernel Image -    2.6.32-573.18.1.el6.x86_64
+=======================================
+10/27/2012 18:09:24 | root: Install 10.5.1.10000-7 Start 
+10/27/2012 12:21:08 | root: Boot 10.5.1.10000-7 Start 
+05/19/2014 12:49:31 | root: Install 10.5.1.10000-7 Success 
+05/19/2014 12:49:32 | root: Boot 10.5.1.10000-7 Start 
+05/19/2014 12:54:57 | root: Restart 10.5.1.10000-7 Start 
+05/19/2014 12:55:48 | root: Boot 10.5.1.10000-7 Start 
+07/16/2013 02:00:25 | root: Boot 10.5.1.10000-7 Start 
+07/16/2013 02:08:52 | root: Shutdown 10.5.1.10000-7 Start 
+07/16/2013 02:20:25 | root: Boot 10.5.1.10000-7 Start 
+07/16/2013 02:26:28 | root: Shutdown 10.5.1.10000-7 Start 
+06/16/2015 10:36:03 | root: Boot 10.5.1.10000-7 Start 
+06/16/2015 12:00:07 | root: Cisco Option Install ciscocm.version3-keys.cop Start 
+06/16/2015 12:00:08 | root: Cisco Option Install ciscocm.version3-keys.cop Success 
+06/16/2015 12:34:01 | root: Upgrade 10.5.2.11900-3 Start 
+06/16/2015 13:18:01 | root: Upgrade 10.5.2.11900-3 Success 
+
+options: q=quit, n=next, p=prev, b=begin, e=end (lines 1 - 20 of 57) : 
+06/30/2016 21:22:20 | root: Upgrade 11.5.1.10000-6 Start 
+06/30/2016 22:26:28 | root: Upgrade 11.5.1.10000-6 Success 
+06/30/2016 22:45:41 | root: Switch Version 11.0.1.10000-10 to 11.5.1.10000-6 Start 
+06/30/2016 22:48:38 | root: Switch Version 11.0.1.10000-10 to 11.5.1.10000-6 Success 
+06/30/2016 22:48:38 | root: Product Version 11.5.1.10000-6 
+06/30/2016 22:48:38 | root: Kernel Image 2.6.32-573.18.1.el6.x86_64 
+06/30/2016 22:48:41 | root: Restart 11.5.1.10000-6 Start 
+06/30/2016 22:48:42 | root: Restart 11.0.1.10000-10 Start 
+06/30/2016 22:50:38 | root: Boot 11.5.1.10000-6 Start 
+07/04/2016 10:54:25 | root: Shutdown 11.5.1.10000-6 Start 
+07/24/2018 20:38:00 | root: Boot 11.5.1.10000-6 Start 
+07/24/2018 21:39:38 | root: Cisco Option Install cmterm-devicepack11.5.1.15078-1.cop Start 
+07/24/2018 21:42:28 | root: Cisco Option Install cmterm-devicepack11.5.1.15078-1.cop Success 
+07/24/2018 21:47:16 | root: Restart 11.5.1.10000-6 Start 
+07/24/2018 21:47:51 | root: Boot 11.5.1.10000-6 Start 
+07/24/2018 21:56:14 | root: Shutdown 11.5.1.10000-6 Start 
+10/06/2018 12:12:08 | root: Boot 11.5.1.10000-6 Start 
+
+end of the file reached
+options: q=quit, n=next, p=prev, b=begin, e=end (lines 41 - 57 of 57) : 
+admin:
+
+>> CURRENT DATE: 2018-10-06 14:54:39
+>> ATTEMPTING SSH TO 10.10.20.1
+utils disaster_recovery device list
+Device Name		Device Type		Device Path
+--------------------------------------------------------------
+drfCliMsg:  No device found 
+admin:utils disaster_recovery status backup
+drfCliMsg: No backup status available
+admin:file view install system-history.log
+
+=======================================
+Product Name -    Cisco Unified Communications Manager
+Product Version - 11.5.1.10000-6
+Kernel Image -    2.6.32-573.18.1.el6.x86_64
+=======================================
+10/23/2012 22:06:58 | root: Install 10.5.1.10000-7 Start 
+10/23/2012 15:24:10 | root: Boot 10.5.1.10000-7 Start 
+05/15/2014 16:10:39 | root: Install 10.5.1.10000-7 Success 
+05/15/2014 16:10:40 | root: Boot 10.5.1.10000-7 Start 
+10/27/2012 17:06:01 | root: Boot 10.5.1.10000-7 Start 
+10/27/2012 17:10:56 | root: Boot 10.5.1.10000-7 Start 
+11/20/2012 17:48:40 | root: Boot 10.5.1.10000-7 Start 
+11/20/2012 19:59:26 | root: Boot 10.5.1.10000-7 Start 
+11/24/2012 16:49:15 | root: Boot 10.5.1.10000-7 Start 
+07/16/2013 02:01:00 | root: Boot 10.5.1.10000-7 Start 
+07/16/2013 02:08:27 | root: Shutdown 10.5.1.10000-7 Start 
+07/16/2013 02:15:40 | root: Boot 10.5.1.10000-7 Start 
+07/16/2013 02:26:42 | root: Shutdown 10.5.1.10000-7 Start 
+06/16/2015 10:34:06 | root: Boot 10.5.1.10000-7 Start 
+06/16/2015 10:47:28 | root: Cisco Option Install ciscocm.version3-keys.cop Start 
+
+options: q=quit, n=next, p=prev, b=begin, e=end (lines 1 - 20 of 63) : 
+07/24/2018 21:33:51 | root: Boot 11.5.1.10000-6 Start 
+07/24/2018 21:58:12 | root: Shutdown 11.5.1.10000-6 Start 
+10/03/2018 16:08:18 | root: Boot 11.5.1.10000-6 Start 
+
+end of the file reached
+options: q=quit, n=next, p=prev, b=begin, e=end (lines 61 - 63 of 63) : 
+admin:
+Script Complete
+
+>> CURRENT DATE: 2018-10-06 14:56:17
+>> ATTEMPTING SSH TO 10.10.20.2
+Exception in connecting to the server: [Errno 60] Operation timed out!!! TERMINATING THIS SSH CONNECTION ATTEMPT !!!
+
+>> CURRENT DATE: 2018-10-06 14:57:32
+>> ATTEMPTING SSH TO 10.10.20.1
+utils disaster_recovery device list
+Device Name		Device Type		Device Path
+--------------------------------------------------------------
+drfCliMsg:  No device found 
+admin:utils disaster_recovery status backup
+drfCliMsg: No backup status available
+admin:file view install system-history.log
+
+=======================================
+Product Name -    Cisco Unified Communications Manager
+Product Version - 11.5.1.10000-6
+Kernel Image -    2.6.32-573.18.1.el6.x86_64
+=======================================
+10/
+07/16/2013 02:01:00 | root: Boot 10.5.1.10000-7 23/2012 22:06:58 | root: Install 10.5.1.10000-7 Start
+10/23/2012 15:24:10 | root: Boot 10.5.1.10000-7 Start
+05/15/2014 16:10:39 | root: Install 10.5.1.10000-7 Success
+05/15/2014 16:10:40 | root: Boot 10.5.1.10000-7 Start
+10/27/2012 17:06:01 | root: Boot 10.5.1.10000-7 Start
+10/27/2012 17:10:56 | root: Boot 10.5.1.10000-7 Start
+11/20/2012 17:48:40 | root: Boot 10.5.1.10000-7 Start
+11/20/2012 19:59:26 | root: Boot 10.5.1.10000-7 Start
+11/24/2012 16:49:15 | root: Boot 10.5.1.10000-7 StartStart
+07/16/2013 02:08:27 | root: Shutdown 10.5.1.10000-7 Start 
+07/16/2013 02:15:40 | root: Boot 10.5.1.10000-7 Start 
+07/16/2013 02:26:42 | root: Shutdown 10.5.1.10000-7 Start 
+06/16/2015 10:34:06 | root: Boot 10.5.1.10000-7 Start 
+06/16/2015 10:47:28 | root: Cisco Option Install ciscocm.version3-keys.cop Start 
+
+options: q=quit, n=next, p=prev, b=begin, e=end (lines 1 - 20 of 63) : 
+07/24/2018 21:33:51 | root: Boot 11.5.1.10000-6 Start 
+07/24/2018 21:58:12 | root: Shutdown 11.5.1.10000-6 Start 
+10/03/2018 16:08:18 | root: Boot 11.5.1.10000-6 Start 
+
+end of the file reached
+options: q=quit, n=next, p=prev, b=begin, e=end (lines 61 - 63 of 63) : 
+admin:
+
+>> CURRENT DATE: 2018-10-06 14:57:54
+>> ATTEMPTING SSH TO 10.10.20.2
+Exception in connecting to the server: [Errno 60] Operation timed out!!! TERMINATING THIS SSH CONNECTION ATTEMPT !!!
+
+>> CURRENT DATE: 2018-10-06 14:59:09
+>> ATTEMPTING SSH TO 10.10.20.1
+utils disaster_recovery device list
+Device Name		Device Type		Device Path
+--------------------------------------------------------------
+drfCliMsg:  No device found 
+admin:utils disaster_recovery status backup
+drfCliMsg: No backup status available
+admin:file view install system-history.log
+
+=======================================
+Product Name -    Cisco Unified Communications Manager
+Product Version - 11.5.1.10000-6
+Kernel Image -    2.6.32-573.18.1.el6.x86_64
+=======================================
+10/23/2012 22:06:58 | root: Install 10.5.1.10000-7 Start 
+10/23/2012 15:24:10 | root: Boot 10.5.1.10000-7 Start 
+05/15/2014 16:10:39 | root: Install 10.5.1.10000-7 Success 
+05/15/2014 16:10:40 | root: Boot 10.5.1.10000-7 Start 
+10/27/2012 17:06:01 | root: Boot 10.5.1.10000-7 Start 
+10/27/2012 17:10:56 | root: Boot 10.5.1.10000-7 Start 
+11/20/2012 17:48:40 | root: Boot 10.5.1.10000-7 Start 
+11/20/2012 19:59:26 | root: Boot 10.5.1.10000-7 Start 
+11/24/2012 16:49:15 | root: Boot 10.5.1.10000-7 Start 
+07/16/2013 02:01:00 | root: Boot 10.5.1.10000-7 Start 
+07/16/2013 02:08:27 | root: Shutdown 10.5.1.10000-7 Start 
+07/16/2013 02:15:40 | root: Boot 10.5.1.10000-7 Start 
+07/16/2013 02:26:42 | root: Shutdown 10.5.1.10000-7 Start 
+06/16/2015 10:34:06 | root: Boot 10.5.1.10000-7 Start 
+06/16/2015 10:47:28 | root: Cisco Option Install ciscocm.version3-keys.cop Start 
+
+options: q=quit, n=next, p=prev, b=begin, e=end (lines 1 - 20 of 63) : 
+07/24/2018 21:33:51 | root: Boot 11.5.1.10000-6 Start 
+07/24/2018 21:58:12 | root: Shutdown 11.5.1.10000-6 Start 
+10/03/2018 16:08:18 | root: Boot 11.5.1.10000-6 Start 
+
+end of the file reached
+options: q=quit, n=next, p=prev, b=begin, e=end (lines 61 - 63 of 63) : 
+admin:
+
+>> CURRENT DATE: 2018-10-06 14:59:31
+>> ATTEMPTING SSH TO 10.10.20.17
+utils disaster_recovery device list
+Device Name		Device Type		Device Path
+--------------------------------------------------------------
+drfCliMsg:  No device found 
+admin:utils disaster_recovery status backup
+drfCliMsg: No backup status available
+admin:file view install system-history.log
+
+=======================================
+Product Name -    Cisco Unified Communications Manager IM and Presence
+Product Version - 11.5.1.10000-4
+Kernel Image -    2.6.32-573.18.1.el6.x86_64
+=======================================
+10/23/2012 23:40:30 | root: Install 10.5.1.10000-9 Start 
+10/23/2012 17:03:37 | root: Boot 10.5.1.10000-9 Start 
+05/15/2014 19:03:37 | root: Install 10.5.1.10000-9 Success 
+05/15/2014 19:03:38 | root: Boot 10.5.1.10000-9 Start 
+10/27/2012 17:06:01 | root: Boot 10.5.1.10000-9 Start 
+11/20/2012 17:48:39 | root: Boot 10.5.1.10000-9 Start 
+11/20/2012 20:00:33 | root: Boot 10.5.1.10000-9 Start 
+11/24/2012 16:49:14 | root: Boot 10.5.1.10000-9 Start 
+06/16/2014 11:52:02 | root: Boot 10.5.1.10000-9 Start 
+07/16/2013 02:01:31 | root: Boot 10.5.1.10000-9 Start 
+07/16/2013 02:13:23 | root: Shutdown 10.5.1.10000-9 Start 
+07/16/2013 02:22:01 | root: Boot 10.5.1.10000-9 Start 
+07/16/2013 02:30:55 | root: Shutdown 10.5.1.10000-9 Start 
+06/16/2015 10:32:26 | root: Boot 10.5.1.10000-9 Start 
+06/16/2015 12:34:11 | root: Upgrade 10.5.2.21900-4 Start 
+
+options: q=quit, n=next, p=prev, b=begin, e=end (lines 1 - 20 of 52) : 
+07/01/2016 09:50:16 | root: Upgrade 11.5.1.10000-4 Success 
+07/01/2016 09:54:43 | root: Switch Version 11.0.1.10000-6 to 11.5.1.10000-4 Start 
+07/01/2016 09:56:08 | root: Switch Version 11.0.1.10000-6 to 11.5.1.10000-4 Success 
+07/01/2016 09:56:08 | root: Product Version 11.5.1.10000-4 
+07/01/2016 09:56:08 | root: Kernel Image 2.6.32-573.18.1.el6.x86_64 
+07/01/2016 09:56:09 | root: Restart 11.5.1.10000-4 Start 
+07/01/2016 09:56:10 | root: Restart 11.0.1.10000-6 Start 
+07/01/2016 09:58:52 | root: Boot 11.5.1.10000-4 Start 
+07/04/2016 10:54:28 | root: Shutdown 11.5.1.10000-4 Start 
+07/24/2018 20:38:30 | root: Boot 11.5.1.10000-4 Start 
+07/24/2018 21:53:49 | root: Shutdown 11.5.1.10000-4 Start 
+10/03/2018 16:29:20 | root: Boot 11.5.1.10000-4 Start 
+
+end of the file reached
+options: q=quit, n=next, p=prev, b=begin, e=end (lines 41 - 52 of 52) : 
+admin:
+Script Complete
